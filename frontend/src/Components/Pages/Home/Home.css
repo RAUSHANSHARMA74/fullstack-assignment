@@ -1,0 +1,55 @@
+.home_page {
+  width: 99%;
+  margin: 4px auto;
+}
+.help_and_search {
+  text-align: center;
+  background-color: #dadbf0;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.help > h1 {
+  font-size: 56px;
+}
+
+.help {
+  width: 35%;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 12px;
+  border-radius: 5px;
+}
+
+.search input {
+  width: 100%;
+  box-sizing: border-box;
+  border: 0px;
+  font-size: 24px;
+  outline: none;
+}
+.search .arrow_right {
+  font-size: 32px;
+}
+
+.all_cards {
+  width: 55%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 100px;
+  padding: 10px;
+  margin-top: 150px;
+}
+
+.data_not_found {
+  text-align: center;
+  font-size: 18px;
+}
